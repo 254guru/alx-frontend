@@ -38,6 +38,7 @@ html {
 
     --section-header-align: center;
     --section-tagline-transform: uppercase;
+    --section-tagline-margin: 0;
 
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
@@ -51,17 +52,11 @@ html {
 
     --nav-item-font-family: var(--font-family-title);
     --nav-item-font-weight: var(--font-weight-bold);
-    /* --nav-item-font-size: 1.6rem; */
     --nav-item-font-size: var(--font-size-medium);
-    /* --nav-item-letter-spacing: 4%; */
     --nav-item-letter-spacing: 0.04rem;
     --nav-item-display: inline-block;
-    /* --nav-item-margin: 0 0 calc(3 * 1rem) 0; */
     --nav-item-margin: 0 0 3rem 0;
-    /*--nav-item-link-hover: var(--color-primary);*/
     --nav-item-link-hover: var(--color-white);
-
-    --section-tagline-margin: 0;
 
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -79,7 +74,6 @@ html {
     --header-logo-link-position: absolute;
     --header-logo-link-top: -1rem;
     --header-logo-link-left: 0;
-
 }
 
 body {
@@ -259,7 +253,7 @@ a:active {
 	left: 0;
 	background-color: var(--color-white);
 	width: 0;
-	height: 0.2rem;
+	height: 20%;
 }
 
 .nav .nav-item:hover .nav-link::before {
